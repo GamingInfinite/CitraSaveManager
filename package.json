@@ -6,8 +6,9 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "2.1.0",
-    "@sveltejs/adapter-netlify": "2.0.7",
+    "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "1.20.1",
+    "@tauri-apps/cli": "^1.4.0",
     "autoprefixer": "^10.4.14",
     "daisyui": "^3.0.1",
     "postcss": "^8.4.24",
@@ -20,5 +21,7 @@
   },
   "license": "MIT",
   "type": "module",
-  "dependencies": {}
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0"
+  }
 }
